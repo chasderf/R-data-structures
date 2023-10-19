@@ -1,0 +1,9 @@
+Factors :
+
+Factors are used to categorize data. Examples of factors are:
+
+Demographics (mex ; Asian ) : male/female
+Music : rock, pop, classic, jazz
+Training: strength, stamina
+
+To create a factor, use the factor( ) function and add a vector as an argument
