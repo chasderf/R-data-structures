@@ -1,0 +1,87 @@
+We can use single bracket ; double bracket [[ ]] or $ to access columns from a data frame:
+
+Data_Frame <- data.frame (
+
+DATA_Frame <- data.frame (
+Training = c(“strength”, “stamina”, “Other”) ,
+Pulse = c( 100, 150, 120) ,
+Duration = c(60, 30, 45)
+}
+Data_frame
+
+Data_Frame [ 1 ]
+
+Data_Frame [[“Training”]]
+Data_Frame$Training
+
+Add rows
+Use the rbind ( ) function to add new rows in a data frame:
+
+Data_frame <- data.frame (
+training = c(“strength” , “Stamina”, “other”) ,
+pulse = c(100, 150, 120),
+)
+
+# add a new row
+New_row_DF <- rbind(Data_Frame, c(“strength”, 110, 100) )
+
+#print the new row
+New_row_DF
+
+Add columns
+
+Use the cbind( ) function to add new columns in a data frame
+
+New_col_DF <- cbind(Data_Frame, Steps = c(1000, 6000, 2000) )
+
+Remove Rows and columns
+
+Use the c( ) function to remove rows and columns in a data frame:
+
+Amount of rows and columns
+Use the dim ( ) function to find the amount of rows and columns in a data frame
+
+Data_Frame <- data.frame (
+Training = c(“strength”, “stamina”, “other”),
+)
+
+Dim(Data_Frame)
+
+You can also use the ncol ( ) function to find the number of columns and nrow ( ) to find the
+number of rows
+
+Data Frame Length
+Use the length ( ) function to find the number of columns in a data frame ( similar to ncol ( ) )
+
+Data_Frame <- data.frame (
+
+Training = c(“strength”, “stamina”, “other”),
+pulse = c(100, 150, 120 ) ,
+duration = c(50, 30, 56)
+)
+
+length (Data_Frame)
+
+//OUTPUT
+[1] 3
+
+Data frame length
+Use the length ( ) function to find the number of columns in a data Frame (similar to ncol ( )
+
+Combining data frames
+
+Use the rbind ( ) function to combine two or more data frames in R vertically
+
+Data_Frame <- data.frame (
+Training = c(“strength”, “stamina”, “other”),
+pulse = c(100, 150, 120 ) ,
+duration = c(50, 30, 56)
+)
+
+Data_Frame <- data.frame (
+Training = c(“strength”, “stamina”, “workout”),
+pulse = c(100, 150, 120 ) ,
+duration = c(50, 30, 56)
+)
+
+And use the cbind( ) function to combine two or more data frames in R horizontally:
