@@ -1,0 +1,15 @@
+A list in R can contain many different data types inside a it. A list is a colleciton of data which is
+ordered and changeable
+To create a list, use the list ( ) function
+
+//INPUT
+Thislist <- list (“apple”, “banana”, “cherry”)
+Thislist
+
+//OUTPUT
+[[1]]
+[1] “apple”
+[[2]]
+[1] “banana”
+[[3]]
+[1] “cherry”
