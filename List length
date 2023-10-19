@@ -1,0 +1,7 @@
+To find out how many items a list has, use the length ( ) function::
+
+//INPUT
+Thislist <- list(“apple”, “banana”, “cherry”)
+Length(Thislist)
+//OUTPUT
+[1] 3
