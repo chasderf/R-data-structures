@@ -1,0 +1,23 @@
+A matrix can be created with the matrix ( ) function. Use the nrow and ncol parameters to
+set the amount of rows and columns
+
+More than one row can be accessed if you use the c ( ) function
+
+More than one column can be accessed if you use the c ( ) function:
+
+Thismatrix [, c(1,2) ]
+
+Cbind( ) function to add additional columns in a matrix
+
+Rbind( ) function to add additional rows in a matrix
+
+Use the -c (12) function remove how many rows and columns in a matrix
+
+Use the %in% operator, to find if the specified item is present in a matrix
+
+Use the dim ( ) function to find the number of rows and columns in a matrix
+
+Use the length ( ) function to find the dimension of a matrix
+
+I can combine two matrices with the rbind ( ) or cbind( ) function to combine two or more matrices
+together:
