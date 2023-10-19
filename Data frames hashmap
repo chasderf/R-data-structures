@@ -1,0 +1,45 @@
+Data frames are data displayed in a format as a table
+
+While the first column can be character, the second and third can be numberic or logical. However,
+each column should have same type of data
+
+Use the data.frame( ) function to create a data frame:
+-==========================================================================
+Summarize the data
+
+Use the summary ( ) function to summarize the data from a data frame:
+
+-==========================================================================
+
+DATA_Frame <- data.frame (
+Training = c(“strength”, “stamina”, “Other”) ,
+Pulse = c( 100, 150, 120) ,
+Duration = c(60, 30, 45)
+}
+Data_frame
+
+Summary (data_frame)
+
+//OUTPUT
+
+It organizes data
+-=========================
+
+Add a new row
+
+# add a new row
+New_row_DF <- rbind(Data_Frame, c(“strength”, 110, 100) )
+
+-==========
+Add columns
+Use the cbind( ) function to add new columns in a data frame
+
+New_col_DF <- cbind(Data_Frame, Steps = c(1000, 6000, 2000) )
+
+—========
+This counts the amount of rows and columns
+Dim ( Data_Function )
+
+Dim is the attribute to contribute to the data_Fuction <- data.function ( )
+
+Ncol ( ) function to find the number of columns and nrow ( ) to find the number of rows
