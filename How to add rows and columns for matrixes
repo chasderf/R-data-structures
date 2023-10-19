@@ -1,0 +1,46 @@
+How to add rows and columns for matrix
+
+[1, ] [2, ] [3, ]
+Lists of matrix objects
+
+Use the cbind ( ) function to add additional columns in a matrix
+
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”, “melon”,
+“fig”) , nrow = 3, ncol = 3)
+
+Newmatrix <- cbind (thismatrix , c(“strawberry” , “blueberry” , “raspberry” ) )
+#print the new matrix
+Newmatrix
+
+Use the rbind( ) function to add additional rows in a matrix
+
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”, “melon”,
+“fig”) , nrow = 3, ncol = 3)
+Newmatrix <- rbind( thismatrix, c(“strawberry”, “blueberry”,”raspberry”) )
+
+#print the new matrix
+Newmatrix
+
+Remove rows and columns
+Use the c ( ) function to remove rows and columns in a matrix
+
+//INPUT
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”, “melon”,
+“fig”) , nrow = 3, ncol = 3)
+
+Thismatrix <- thismatrix [ -c(1), -c(1) ]
+Thismatrix
+
+//OUTPUT
+
+So bassically to remove a rows and columns you have to take “Thismatrix <- thismatrix [ -c(1), -c(1)
+]” and basically subtract the columns together to remove whatever column and row
+
+Check if an item exists
+To find out if a specified item is present in a matrix , use the %in% operator
+
+//INPUT Check if “apple” is present in the matrix
+Thismatrix <- matrix (c( “apple”, “banana”, “cherry”, “orange”), nrow = 2, ncol = 2)
+“Apple” %in% thismatrix
+//OUTPUT
+[1] TRUE
