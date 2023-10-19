@@ -1,0 +1,6 @@
+You can loop through th list items by using a for loop
+
+Thislist <- list (“apple”, “banana”, “cherry”)
+
+For (x in Thislist) {
+Print(x) }
