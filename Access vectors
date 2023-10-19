@@ -1,0 +1,68 @@
+Access Vectors
+
+You can access the vector items by referring to its index number inside the bracket [ ]
+The first item has index 1, the second item has index 2, and so on
+
+//INPUT
+Fruits <- c(“banana”, “apple”, “orange”)
+Fruits[1]
+
+//OUPTUT
+
+[1] “banana”
+
+You can also access multiple elemnts by referring to different index positions with the c ( )
+
+Fruits <- c(“banana”, “apple”, “orange:”, “mango”, “lemon”)
+
+Fruits [c(1,3)]
+
+Change an item
+
+To change the value of a specific item, refer to the index number :
+
+//INPUT
+Fruits <- c(“bannana”, “apple”, “orange”, “mango”, “lemon”)
+Fruits [1] <- “pear”
+Fruits
+
+//OUTPUT
+
+[1] “pear” “apple” “orange” “mango” “lemon”
+
+Repeat Vectors
+
+To repeat vectors, use the rep( ) function
+
+//INPUT
+Repeat_each <- rep (c(1,2,3), each = 3)
+Repeat_each
+
+//OUTPUT
+[1] 1 1 1 2 2 2 3 3 3
+//*INFORAMTION to gain
+That it will make copies for each = x
+
+Repeat the sequence of the vector:
+Repeat_times <- rep (c(1,2,3), Times = 3)
+
+Repeat_times
+
+[1] 1 2 3 1 2 3 1 2 3
+
+Repeat each value independently
+
+//INPUT
+Repeat_indepent <- rep (c(1,2,3), times = c(5,2,1))
+
+Repeat_indepent
+
+//OUTPUT
+[1] 1 1 1 1 1 2 2 3
+
+Generating sequenced vectors
+One of the examples on top, showed you how to create a vector with numerical values in a
+sequence with the : operator
+
+Numbers <- 1:10
+Numbers
