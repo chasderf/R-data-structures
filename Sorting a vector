@@ -1,0 +1,12 @@
+To sort items in a vector alphabetically or numerically, use the sort ( ) function:
+
+INPUT
+Fruits <- c(“banana”, “apple”, “otrange’, “mango”, “lemon”, “grape”)
+Numbers <- c(13, 3, 5, 7, 20. 2)
+
+Sort(fruits) #sort a string
+Sort(numbers) #sort numbers
+
+//OUTPUT::
+[1] “apple” “banana” “grape “le
+[1] 2 3 5 7 13 20
