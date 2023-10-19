@@ -1,0 +1,7 @@
+Number of Rows and columns
+
+Use the dim ( ) function to find the number of rows and columns in a matrix
+
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”) , nrow = 2, ncol = 2)
+
+Dim(thismatrix)
