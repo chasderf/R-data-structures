@@ -1,0 +1,11 @@
+In the example below we can create a vector of logical values
+
+//INPUT
+#vector of logical values
+Log_value <- c(TRUE, FALSE, TRUE, FALSE)
+
+Log_value
+
+//OUTPUT
+
+[1] TRUE. FALSE TRUE FALSE
