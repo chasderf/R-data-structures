@@ -1,0 +1,14 @@
+Matrices
+A matrix is a two dimensional data set with columns and rows
+A column is a vertical representation of data, while a row is a horizontal representation of data
+
+A matrix can be created with matrix ( ) function. Specify the nrow and ncol parameters to get the
+amount of rows and columns
+
+Thismatrix <- matrix (c(1,2,3,4,5,6), nrow = 3, ncol = 2)
+Thismatrix
+
+You can also create a matrix with strings
+
+Thismatrix <- matrix (c(“banana”, “banana”, “cherry”, “orange”), nrow = 2, ncol = 2)
+Thismatrix
