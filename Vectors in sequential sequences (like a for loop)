@@ -1,0 +1,6 @@
+In this example, we create a vector that combines numerical values:
+
+#vector of numerical values in a sequence
+Numbers <- 1:10
+
+Numbers
