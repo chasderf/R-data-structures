@@ -1,0 +1,9 @@
+To find out how many items a vector has, use the length( ) function
+
+#find the length of the fruits vector
+Fruits <- c(“banana”, “apple”, “orange”)
+
+Length(fruits)
+
+// OUPTUT::
+[1] 3
