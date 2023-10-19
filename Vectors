@@ -1,0 +1,30 @@
+Vectors:
+
+A vector is simply a list of items that are the same type
+
+To combine the list of items to a vector, use the c( ) function and separate the items by a comma
+
+In the example below, we create a vector variable called fruits, that combine strings:
+
+# vector of strings
+
+Fruits <- c(“banana”, “apple”, “orange”)
+
+#print fruits
+Fruits
+
+In this example, we create a vector that combines numerical values
+
+//input code
+
+#vector of numerical values
+Numbers <-c(1,2,3)
+Data <- c(“hi” , “what’s good”)
+
+#print numbers
+Numbers
+Data
+
+//output ::
+[ 1 ] 2, 3
+[ 1 ] “hi” “what good”
