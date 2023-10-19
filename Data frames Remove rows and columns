@@ -1,0 +1,12 @@
+Use the c( ) function to remove rows and columns in a data frame:
+
+# remove the first row and column
+Data_Frame_New <- Data_Frame [ -c(1), -c(1) ]
+
+How to count the Amount of rows and columns
+
+Data_Function <- data.function (
+training = c(“matrix info”),
+)
+
+Dim ( Data_Function )
