@@ -1,0 +1,60 @@
+You can accces the items by using [ ] brackets. The first number ”1” in the bracket specifies the
+row-position, while the second number “2” specifies the column position
+
+//INPUT
+Thismatrix <- matrix(c(“apple”, “banana”, “cheery”, “orange”), nrow = 2, ncol = 2)
+Thismatrix [1, 2]
+
+//OUTPUT
+[1] “cherry”
+
+The whole row can be accessed if you specify a comma after the number in the bracket:
+
+//INPUT
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”), nrow = 2, ncol = 2)
+Thismatrix [2,]
+//OUTPUT
+[1] “banana” “orange”
+
+The whole column can be accessed if you specify a comma before the number in the bracket:
+
+//INPUT
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”), nrow = 2, ncol = 2)
+Thismatrix [,2]
+//OUTPUT
+[1] “cherry” “orange”
+
+Access more than one row
+More than one row can be accessed if you use the c ( ) function:
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”. “Melon”,
+“fig”) , nrow = 3, ncol = 3)
+Thismatrix [ c ( 1 , 2 ) , ]
+
+Access more than one column
+More than one column can be accessed if you use the c ( ) function:
+
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”, “melon”,
+“fig” ) , nrow = 3 , ncol = 3)
+
+Thismatrix [ , c (1 , 2) ]
+
+//OUTPUT
+[,1] [,2]
+[1, ] “apple” “orange”
+[2, ] “banana” “grape”
+[3, ] “cherry” “pinapple”
+
+Add rows and columns
+Use the cbind ( ) function to add additional columns in a matrix
+
+//INPUT
+Thismatrix <- matrix (c(“apple”, “banana”, “cherry”, “orange”, “grape”, “pinapple”, “pear”, “melon”,
+“fig”) , nrow = 3, ncol = 3 )
+Newmatrix <- cbind(Thismatrix, c(“strawbery”, “blueberry”, “raspberry”))
+
+# print the new matrix
+Newmatrix
+
+//OUTPUT
+[ ,1] [ ,2] [ ,3] [ ,4]
+[1, ] “apple” “orange” “pear” “strawberry”
