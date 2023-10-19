@@ -1,0 +1,7 @@
+You can also remove list items. The follwoing example creates a new, updated list without an
+“apple” item
+
+//INPUT HOW TO REMOVE APPLE FROM THE LIST
+Thislist <- list(“apple”, “banana”, “cherry”)
+New list <- Thislist [-1]
+Newlist
