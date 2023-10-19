@@ -1,0 +1,6 @@
+To find out if a specific item is present in a list, use the %in% opeartor
+//INPUT
+Thislist <- list(“apple”, “banana”, “cherry”)
+“Apple %in% Thislist
+//OUTPUT
+[1] TRUE
