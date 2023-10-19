@@ -1,0 +1,13 @@
+You can specify a range of indexes by specifying where to start and where to end the range, by
+using the : operator
+Thislist <- list(“apple”, “banana”, “cherry”, “orange”, “kiwi”, “melon”, “mango”)
+(Thislist) [ 2:5 ]
+//OUTPUT
+[[1]]
+[1] “Banana”
+[[2]]
+[1] “cherry”
+[[3]]
+[1] “orange”
+[[4]]
+[1] “kiwi”
